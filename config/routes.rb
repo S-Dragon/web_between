@@ -1,4 +1,15 @@
 WebBetween::Application.routes.draw do
+  root "betweenforweb#main"
+  get "betweenforweb/show"
+  get "betweenforweb/write"
+  get "betweenforweb/write_complete"
+  get "betweenforweb/edit"
+  get "betweenforweb/edit_complete"
+  get "betweenforweb/delete_post"
+  get "betweenforweb/delete_comment"
+  get "betweenforweb/edit_comment"
+  get "betweenforweb/edit_comment_complete"
+  get "betweenforweb/show_picture"
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
 

@@ -8,6 +8,7 @@ class CreatePosts < ActiveRecord::Migration
 			t.string :year
 			t.string :month
 			t.string :date
+			t.integer :count_comments
 
       t.timestamps
     end
